@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Processing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Image Processing</h1>
+    </header>
+
+    <script src="script1.js"></script>
+
+    <div id="tools-container">
+      <button class="tool-button" onclick="mirrorImage()">Mirror</button>
+      <button class="tool-button" onclick="SobelOperator()">
+        Sobel Filter
+      </button>
+      <button class="tool-button" onclick="processImageInSlices()">
+        Sobel Filter (in parts)
+      </button>
+        <button class="tool-button" onclick="processImageInSlices2()">
+            Mirror (in parts)
+    </div>
+
+    <div id="canvas-container">
+      <canvas id="image-canvas" width="500" height="500"></canvas>
+    </div>
+
+    <div id="log-container">
+      <h2>Execution Times</h2>
+      <div id="log"></div>
+    </div>
+  </body>
+</html>

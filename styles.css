@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4a69bd, #82ccdd);
+}
+
+header {
+    background-color: #3b5998;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tools-container {
+    text-align: center;
+    padding: 2em;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 1em auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tool-button {
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #4a69bd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.tool-button:hover {
+    background-color: #3b5998;
+}
+
+#canvas-container {
+    text-align: center;
+    padding: 2em;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 1em auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#log-container {
+    text-align: center;
+    padding: 0.5em 2em 2em 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 1em auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#log-container p {
+    margin: 0.5em 0;
+}
